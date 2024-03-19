@@ -14,7 +14,7 @@ export default function Card({ result }) {
           height={300}
           alt={result.title || result.name} // Adding alt attribut
           className="transition-opacity duration-300 sm:rounded-t-lg group-hover:opacity-75"
-        ></Image>
+        />
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
           <h2 className="text-lg font-bold truncate">
